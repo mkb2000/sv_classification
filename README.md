@@ -1,5 +1,3 @@
-This is a Eclipse project.
-
 This project contains two approaches for SV classification: rule-based and machine-learning based.
 
 They work well with paired result. ML approach can support unpaired result but with relatively low accuracy. Normally, I use paired result for training and paired+unpaired result for testing. (Since there are few "WOFS" in paired result, some entries of this class should be copied from testing file into training file).
